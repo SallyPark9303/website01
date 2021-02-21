@@ -17,5 +17,30 @@ $(document).ready(function(){
 		$("#container").css("max-width","1200px");
 	});
 	
+ //롤링 배너
+	$(".roll_left").click(function(){
+		$(".book_roll li").eq(0).insertAfter(".book_roll li:last-child");
+		
+	});
+	$(".roll_right").click(function(){
+		(".book_roll li").eq(-1).insertBefore(".book_roll li:first-child");
+		
+	});
+	
+	$(".book_roll li").click(function(){
+		var _this =$(this);
+		var liurl = this.dataset.url; //책 this.data("url")
+		$(".notebook").html();
+		$.ajax({
+			url: liurl,
+			dataType: 'html',
+			success :function(data){
+				$(".notebook").html(data);
+			}
+		});
+		
+		console.log(this);
+		
+	})
 });
 
