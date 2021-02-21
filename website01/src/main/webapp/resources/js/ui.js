@@ -38,9 +38,13 @@ $(document).ready(function(){
 				$(".notebook").html(data);
 			}
 		});
+	
 		
-		console.log(this);
-		
-	})
+	});
+	// 아코디언 기능 
+	$(".accordio_box ol li").click(function(){
+		$(".accordio_box ol li").removeClass("on");
+		$(this).addClass("on");
+	});
 });
 

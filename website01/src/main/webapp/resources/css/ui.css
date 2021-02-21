@@ -100,7 +100,8 @@ footer >a.instar:hover{background:url(../images/social_b_instar_hover.png) no-re
 .text_box:nth-last-child(1){padding:0 200px 0 280px;}
 #menu2.content h3{font-size:0px;}
 #menu2.content.this .conbox{background:url(../images/bookbg.png) no-repeat -15px 360px; max-width:100%;}
-.notebook{width:954px; height:650px; margin:100px auto 0 auto; background:url(../images/mackbook.png); background-repeat:no-repeat; background-size:954px; position:relative;}
+.notebook{width:954px; height:650px; margin:100px auto 0 auto; background:url(../images/mackbook.png); background-repeat:no-repeat; background-size:954px;
+ 			position:relative; transform-style:preserve-3d; opacity:0; transform:matrix3d(1,0,0,0,0,0.1,0,0,0,0,1,0,0,0,0,1); transition:all ease-in-out 0.6s; transition-delay:.8s;}
 .detail_content{width:719px; height:453px; position:absolute; left:117px; top:38px; padding: 30px 0;}
 .img_book{width:270px; float:left;}
 .img_book img{width:270px;}
@@ -122,3 +123,21 @@ footer >a.instar:hover{background:url(../images/social_b_instar_hover.png) no-re
 .book_rollwrap .book_roll ul{width:1000%;}
 .book_rollwrap .book_roll ul li{float:left; width:152px; text-align:center; color:#fff;}
 .book_rollwrap .book_roll ul li img{width:100px;}
+#menu2.this .notebook{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opaciyu:1;}
+.tit_faq{color:#fff; position:relative;}
+.tit_faq strong{font-size:25px; padding-right:10px;}
+.tit_faq span{font-size:14px; font-weight:400}
+.tit_faq:before{content:""; display:block; position:absolute; width:120px; height:150px; background:url(../images/faq_boy.png); background-repeat:no-repeat; right:0px; top:36px;}
+.accordio_box{margin-top:170px;}
+.accordio_box ol li{width:100%; background:#fff; border-top:4px solid #EA657B;}
+.accordio_box ol li h4{display:block; padding:0px 20px 20px 0; margin:20px 20px 0 30px; cursor:pointer; background:url(../images/select_bullet_up.png); background-repeat: no-repeat; background-size:11px; background-position:right;
+						font-weight:400; color:#3c4147;}
+.accordio_box ol li.on h4{background:url(../images/select_bullet_down.png); background-repeat:no-repeat; background-size: 11px; background-position:right;}
+.accordio_box ol li h4 span{display:inline-block; margin-right:10px; font-weight:900; }
+.accordio_box ol li p{height:0; visibility:hidden; opacity:0;}
+.accordio_box ol li.on p{height:auto; padding:30px 100px 100px 200px; background-color:#eee; 
+						background-size:100px auto; background-repeat:no-repeat; visibility:visible; opacity:1; }
+.accordio_box ol li:nth-of-type(1) p{background-image:url(../images/board_boy.png); background-position:40px -1px; background-size:100px; background-repeat:no-repeat;  }
+.accordio_box ol li:nth-of-type(2) p{background-image:url(../images/read_boy.png); background-position:40px 20px; background-size:100px; background-repeat:no-repeat;  }
+.accordio_box ol li:nth-of-type(3) p{background-image:url(../images/shopping_boy.png); background-position:40px 13px; background-size:100px; background-repeat:no-repeat;  }
+.accordio_box ol li:nth-of-type(4) p{background-image:url(../images/meeting_boy.png); background-position:40px 13px; background-size:100px; background-repeat:no-repeat;  }
