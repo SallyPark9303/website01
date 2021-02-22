@@ -27,7 +27,7 @@
  <section id="container">
 <section id="menu1" class="content"><h2>회사소개</h2>
 <div class="conbox">
-<section id="content_wrap">
+<section class="content_wrap">
 <h3 class="pargrph_tit">이지스퍼블리싱</h3>
 <div class="pargrph">
   <div class="text_box">
@@ -65,7 +65,7 @@
 </div>
 </section>
 <section id="menu2" class="content"><h2>도서소개</h2><div class="conbox">
-<section id="content_wrap"><h3>도서상세내용</h3>
+<section class="content_wrap"><h3>도서상세내용</h3>
 	<div class="book_detail">
 		<article class="notebook">
 			<div class="detail_content">
@@ -116,7 +116,7 @@
 	<section id="menu3" class="content">
 		<h2>FAQ</h2>
 			<div class="conbox">
-				<section id="content_wrap">
+				<section class="content_wrap">
 				<h3 class="tit_faq">
 				<strong>자주 묻는 질문</strong>
 				<span>이지스퍼블리싱의 자주 묻는 질문을 모았습니다.</span>
@@ -145,7 +145,38 @@
 				</section>
 			</div>
 		</section>
-<section id="menu4" class="content"><h2>Contact Us</h2><div class="conbox"><section id="content_wrap"></section></div></section>
+	<section id="menu4" class="content">
+		<h2>Contact Us</h2>
+			<div class="conbox">
+				<section class="content_wrap">
+				<h3 class="form_tit">지금 이지스퍼블리싱에 물어보세요!</h3>
+					<form class="gform" method="post" action="" name="contactus">
+						<fieldset>
+							<legend>Contact Us</legend>
+								<div class="formlist">
+									<ul>
+										<li>
+											<label for="name">이름<sup>*</sup></label>
+											<span class="inputbox"><input type="text" id="name" required placeholder="이름을 입력하여 주세요"/></span>
+										</li>
+											<li>
+											<label for="email">답변 받을 이메일<sup>*</sup></label>
+											<span class="inputbox"><input type="email" id="email" name="email" placeholder="sample@mail.com" required/></span>
+										</li>
+											<li>
+											<label for="message">문의 내용<sup>*</sup></label>
+											<span class="txtbox"><textarea id="message" name="message" placeholder="궁금한 사항을 작성해 주세요" required></textarea></span>
+										</li>
+									</ul>
+										<div class="btn_box">
+										<button type="submit" class="commbtn">문의하기</button>
+										</div>
+								</div>
+						</fieldset>
+					</form>
+				</section>
+			</div>
+	</section>
  </section>
 <footer>
 <address>(04003)서울특별시 마포구 잔다리로 19 TEL (02)325-1722 FAX (02)326-1723</address>

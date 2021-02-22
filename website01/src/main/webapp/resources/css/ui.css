@@ -123,7 +123,7 @@ footer >a.instar:hover{background:url(../images/social_b_instar_hover.png) no-re
 .book_rollwrap .book_roll ul{width:1000%;}
 .book_rollwrap .book_roll ul li{float:left; width:152px; text-align:center; color:#fff;}
 .book_rollwrap .book_roll ul li img{width:100px;}
-#menu2.this .notebook{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opaciyu:1;}
+#menu2.this .notebook{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); opacity:1;}
 .tit_faq{color:#fff; position:relative;}
 .tit_faq strong{font-size:25px; padding-right:10px;}
 .tit_faq span{font-size:14px; font-weight:400}
@@ -141,3 +141,15 @@ footer >a.instar:hover{background:url(../images/social_b_instar_hover.png) no-re
 .accordio_box ol li:nth-of-type(2) p{background-image:url(../images/read_boy.png); background-position:40px 20px; background-size:100px; background-repeat:no-repeat;  }
 .accordio_box ol li:nth-of-type(3) p{background-image:url(../images/shopping_boy.png); background-position:40px 13px; background-size:100px; background-repeat:no-repeat;  }
 .accordio_box ol li:nth-of-type(4) p{background-image:url(../images/meeting_boy.png); background-position:40px 13px; background-size:100px; background-repeat:no-repeat;  }
+#menu4 .content_wrap{width:800px; margin:100px auto 0 auto; padding:30px; background:rgba(225,225,255, 0.7); border-radius:5px;}
+#menu4 .content_wrap .form_tit{margin-bottom:40px; font-size:24px; font-weight:700; color:#ea657b;}
+.formlist{padding-bottom:150px; background:url(../images/contact_bg.png); background-repeat:no-repeat; background-position:right bottom; background-size:200px; }
+.formlist ul li{margin-bottom:15px; position:relative; padding: 0 0 0 150px;}
+.formlist ul li label{display:block; width:150px; position:absolute; left:0; top:0; font-size:14px; color:#555;}
+.formlist ul li label sup{color:#ea657b;}
+.formlist ul li span{display:block;}
+.formlist ul li .inputbox{width:100%; height:40px; border:solid 1px #ddd; background:#fff;}
+.formlist ul li .txtbox{width:100%; height:40px; border:solid 1px #ddd; background:#fff;}
+.formlist ul li textarea, .formlist ul li input {width:100%; height:100%;}
+.btn_box{width:100%; margin-top:20px; text-align:center;}
+.commbtn.gray{background:#3c4147; color:#fff;}

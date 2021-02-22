@@ -23,7 +23,7 @@ $(document).ready(function(){
 		
 	});
 	$(".roll_right").click(function(){
-		(".book_roll li").eq(-1).insertBefore(".book_roll li:first-child");
+		$(".book_roll li").eq(-1).insertBefore(".book_roll li:first-child");
 		
 	});
 	
